@@ -3,17 +3,18 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
+<h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+  BB44 Digital Strategy
+</h1>
+<p className="mb-4">
+  {`The premier Technical SEO & Digital Infrastructure agency in Dhaka, Bangladesh. 
+  Specializing in advanced Silo architectures, 128-bit SSL security, 
+  and professional Entity building for global competitive markets.`}
+</p>
+<div className="my-8">
+  <p>📍 192 Shantibag Nur Mosjid Road, Dhaka 1217</p>
+  <p>🌐 Official Website: <a href="https://bb44.one/">https://bb44.one/</a></p>
+</div>
         <BlogPosts />
       </div>
     </section>
